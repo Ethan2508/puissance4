@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  a {
+    color: red;
+  }
+  .game-info {
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+  .win-message {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 5px;
+    margin-top: 20px;
+  }
+  .cell {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .red {
+    background-color: #f00;
+  }
+  .yellow {
+    background-color: #ff0;
+  }
+  
